@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-
 def pool(chlorine, v, chlorine_type):
     if chlorine_type == 1:
         pool_chlorine = (v * chlorine) / (1000000 * 0.10)
